@@ -1,0 +1,28 @@
+ html,body {
+  background-image: url('../img/login-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+#box {
+  top: 80px;
+}
+
+.mt {
+  margin-top: 15px;
+} 
+
+.mb {
+  margin-bottom: 15px;
+} 
+
+.space {
+  margin-bottom: -10px;
+}
+
+.login-text {
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+}

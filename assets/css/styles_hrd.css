@@ -1,0 +1,398 @@
+/*@media (min-width: 1200px) {*/
+  /*dashboard*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .np {
+    padding: 0;
+  }
+
+  .fotodiri {
+    height: 170px;
+  }
+
+  .nav-bg {
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 1; 
+    height: 75px;
+  }
+
+  .gatlogo {
+    height: 45px;
+    width: 155px;
+    margin-left: 20px;
+    margin-top: 15px;
+  } 
+
+  .text-hrd-bg {
+    height: 80px;
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 25px;
+  } 
+
+  .dashboard {
+    background-color: #ffffff;
+    margin-top: 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  #side-bar {
+    width: 200px;
+    height: 100%;
+    left: -150px;
+    color: #e8e8e8;
+    background-color: #928f90;
+    transition: all 500ms linear;
+    position: fixed;
+    font-size: 13px;
+  }
+
+  #side-bar.on-side {
+    left: 0px;
+  }
+
+  #side-bar .nav-btn {
+    left: 0px;
+    height: 30px;
+    width: 200px;
+    padding: 5px 38px;
+    position: absolute;
+    background-color: #646362;
+  }
+
+  #side-bar .ulli {
+    list-style: none;
+    margin: 50px -3px 0px -3px;
+  }
+
+  #side-bar .ulli .li-menu {
+    margin: 10px -12px;
+    padding: 5px 38px;
+    background-color: #19325a;
+    color: #e8e8e8;
+  }
+
+  .span-li {
+    float: right;
+    margin-right: -28px;
+  }
+
+  .span-title {
+    float: right;
+    margin: -3px -25px;  
+  }
+
+  #title-content {
+    background-color: #e02131;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+  }
+
+  #content-bar {
+    width: 65%;
+    height: 100%;
+    color: #000;
+    margin-left: 35px;
+    font-size: 16px;
+    transition: all 500ms linear;
+    position: absolute;
+    z-index: -1;
+  }
+
+  #content-bar.on-content {
+    margin-left: 185px;
+  }
+
+  .menu-title-a {
+    float: left;
+    width: 13%;
+    height: 100%;
+    padding: 2px;
+    color: #e8e8e8;
+    background-color: #19325a;
+    border-radius: 0 40px 40px 0;
+    position: absolute;
+  }
+
+  .menu-title-a-on {
+    float: left;
+    width: 13%;
+    height: 100%;
+    padding: 2px;
+    color: #19325a;
+    background-color: #e8e8e8;
+    border-radius: 0 40px 40px 0;
+    position: absolute;
+  }
+
+  #menu-a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .menu-title-b {
+    float: left;
+    margin-left: 150px;
+    width: 17%;
+    height: 100%;
+    padding: 2px;
+    color: #e8e8e8;
+    background-color: #19325a;
+    border-radius: 0 40px 40px 0;
+    z-index: -1;
+    position: absolute;
+  }
+
+  .menu-title-b-on {
+    float: left;
+    margin-left: 150px;
+    width: 17%;
+    height: 100%;
+    padding: 2px;
+    color: #19325a;
+    background-color: #e8e8e8;
+    border-radius: 0 40px 40px 0;
+    z-index: -1;
+    position: absolute;
+  }
+
+  #menu-b {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .menu-title-c {
+    margin-left: 300px;
+    width: 21%;
+    height: 100%;
+    padding-top: 2px;
+    padding-left: 60px;
+    color: #e8e8e8;
+    background-color: #19325a;
+    border-radius: 0 40px 40px 0;
+    z-index: -2;
+    position: absolute;
+  }
+
+  .menu-title-c-on {
+    margin-left: 300px;
+    width: 21%;
+    height: 100%;
+    padding-top: 2px;
+    padding-left: 60px;
+    color: #19325a;
+    background-color: #e8e8e8;
+    border-radius: 0 40px 40px 0;
+    z-index: -2;
+    position: absolute;
+  }
+
+  #menu-c {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  #content-side {
+    width: 143%;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  #form-title-a {
+    color: #e02131;
+    font-weight: bolder;
+    font-size: 23px;
+  }
+
+  #form-title-b {
+    color: #e02131;
+    font-size: 20px;
+  }
+
+  .btn-save {
+    color: #e8e8e8;
+    background-color: #19325a;
+  }
+
+  #deleteImg:hover {
+    cursor: pointer;
+  }
+
+  .text-box-input {
+    color: #19325a;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+  }
+
+  .box-upload {
+    color: #19325a;
+    background-color: #646362;
+  }
+
+  .up-plus {
+    margin: -5px 5px 0px 5px;
+  }
+
+  .male-text {
+    margin-left: 4.5%;
+  }
+
+  .male-form {
+    margin-left: 5%;
+  }
+
+  .ml-text {
+    margin-left: -18%;
+  }
+
+  .mr-text {
+    margin-left: 3%;
+  }
+
+  label {
+    color: #19325a;
+  }
+
+  #no-head {
+    width: 1.5%;
+  }
+
+  #id-head, #on-head, #off-head {
+    width: 3%;
+  }
+
+  #nama-head {
+    width: 7%;
+  }
+
+  #div-head, #aksi-head {
+    width: 6%;
+  }
+
+  #jab-head {
+    width: 4%;
+  }
+
+  .no-body {
+    width: 3%;
+  }
+
+  .id-body, .tgl-body, .aksi-body, .nol-body, .tgl-body {
+    width: 5%;
+  }
+
+  .nama-body {
+    width: 11.5%;
+  }
+
+  .div-body {
+    width: 9.5%;
+  }
+
+  .jab-body {
+    width: 7%;
+  }
+
+  #ins-head {
+    width: 8.5%;
+  }
+
+  #akhir-head {
+    width: 4.5%;
+  }
+
+  #hal-head, #nota-head {
+    width: 31%;
+  }
+
+  #act-head {
+    width: 13%;
+  }
+
+  .ins-body, .re-body, #re-head {
+    width: 20%;
+  }
+
+  .hal-body, .nota-body {
+    width: 30%;
+  }
+
+  .akhir-body, #nol-head{
+    width: 8%;
+  }
+
+  .act-body {
+    width: 15%;
+  }
+
+  .page {
+    display: inline-block;
+  }
+
+  .page a {
+    color: #19325a;
+    float: left;
+    padding: 5px 9px;
+    margin:7px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition: background-color .3s;
+  }
+
+  .page a.active {
+    background-color: #19325a;
+    color: #e8e8e8;
+    border-radius: 5px;
+  }
+
+  .page a:hover:not(.active) {
+    background-color: #e8e8e8;
+    border-radius: 5px;
+  }
+
+  .border-table {
+    border:2px solid #19325a;
+    padding:0 10px;
+  }
+
+  td {
+    border:2px solid #19325a;
+  }
+
+  thead, tfoot {
+    display:table;
+    width:100%;
+    width:calc(100% - 18px);
+  }
+
+  tbody {
+    height:270px;
+    width:100%;
+    overflow:auto;
+    overflow-x:hidden;
+    display:block;
+    font-size: 12px;
+  }
+
+  tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+  }
+  /*dashboard*/
+/*}*/
+
+/*@media (max-width: 1199.98px) {
+
+}*/
